@@ -1,0 +1,43 @@
+*,
+*:after,
+*:before {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.loader{
+  height: 350px;
+  width: 350px;
+  border: 1px solid black;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.loader div:nth-child(1){
+  background-color: #dd1c4b;
+  height: 200px;
+  width: 125px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 40px;
+  transform: rotate(45deg);
+  border-radius: 100px 100px 10px 10px;
+  transform-origin:  50% 69%;
+}
+
+.loader div:nth-child(2){
+  height: 200px;
+  width: 125px;
+  position: absolute;
+  background-color: black;
+  top: 151px;
+  right: 132px;
+  transform: rotate(135deg);
+  transform-origin: 50% 31%;
+}
