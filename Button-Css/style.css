@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #15161a;
+}
+button{
+  height:100px;
+  width: 300px;
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  margin: auto;
+}
