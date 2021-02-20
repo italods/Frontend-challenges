@@ -22,3 +22,38 @@ button{
   box-shadow: 20px 20px 50px rbga(0,0,0,0.5);
   outline: none;
 }
+button:before {
+  content: "";
+  position: absolute;
+  height: 25px;
+  width: 300px;
+  background-color: #17181d;
+  margin: auto;
+  left: -6px;
+  right: 0px;
+  bottom: -6px;
+  transition: width 0.5s,
+              height 0.5s 0.5s;
+}
+
+button:after{
+  content: " ";
+  position: absolute;
+  height: 25px;
+  width: 300px;
+  background-color: #17181d;
+  margin: auto;
+  left: -6px;
+  right: 0px;
+  top: -6px;
+  transition: width 0.5s,
+              height 0.5s 0.5s;
+}
+
+button:hover:before,
+button:hover:after {
+  width: 0;
+  height: 6px;
+  transition: height 0.5s,
+              width 0.5s 0.5s;
+}
