@@ -45,3 +45,10 @@ body{
 .pulse:after{
   animation: pulse 2s 1s ease-out infinite;
 }
+
+@keyframes pulse {
+  100%{
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
