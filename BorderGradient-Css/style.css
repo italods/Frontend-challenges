@@ -4,5 +4,27 @@
   box-sizing: border-box;
 }
 .box{
-  
+  height: 300px;
+  width: 300px;
+  border: 15px solid transparent;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-image: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#ff4b2b),
+    to(#ff416c)
+  );
+  border-image: linear-gradient(right, 
+  #ff4b2b,
+  #ff416c
+  );
+  border-image-slice: 1;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 110px 0;
 }
