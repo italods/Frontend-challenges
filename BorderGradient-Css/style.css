@@ -1,4 +1,6 @@
-*{
+*,
+*:before,
+*:after{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -6,25 +8,37 @@
 .box{
   height: 300px;
   width: 300px;
-  border: 15px solid transparent;
+  background-color: white;
   position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
-  border-image: -webkit-gradient(
-    linear,
-    right top,
-    left top,
-    from(#ff4b2b),
-    to(#ff416c)
-  );
-  border-image: linear-gradient(right, 
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+  padding: 130px 0;
+  border-radius: 15px;
+}
+.box:before{
+  position:absolute;
+  content: " ";
+  height: 120%;
+  width: 120%;
+  background-image: -webkit-linear-gradient(
+    to bottom right, 
   #ff4b2b,
   #ff416c
   );
-  border-image-slice: 1;
-  font-size: 30px;
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-  padding: 110px 0;
+  background-image: linear-gradient(
+    to bottom right, 
+  #ff4b2b,
+  #ff416c
+  );
+  left: -10%;
+  top: -10%;
+  z-index: -1;
+  border-radius: 15px;
 }
