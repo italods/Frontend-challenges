@@ -42,7 +42,10 @@ button:after{
     45deg,
     transparent 50%,
     rgba(255, 255, 255, 0.03) 58%,
-    rgba(255, 255, 255, 0.16 67%,
+    rgba(255, 255, 255, 0.16) 67%,
     transparent 68%
-    );
+  );
+  background-size: 200% 100%;
+  background-position: 165% 0;
+
 }
