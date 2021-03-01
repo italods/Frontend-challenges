@@ -1,0 +1,48 @@
+*,
+*:before,
+*:after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  background: linear-gradient(
+    black 50%,
+    crimson 50%
+  );
+}
+button{
+  width: 320px;
+  height: 120px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255,0.05);
+  border: black;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 10px;
+  backdrop-filter: blur(8px);
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    45deg,
+    transparent 50%,
+    rgba(255, 255, 255, 0.03) 58%,
+    rgba(255, 255, 255, 0.16 67%,
+    transparent 68%
+    );
+}
