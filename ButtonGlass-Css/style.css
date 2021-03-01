@@ -30,6 +30,7 @@ button{
   backdrop-filter: blur(8px);
   cursor: pointer;
   border-radius: 5px;
+  transition: 0.5s;
 }
 button:after{
   content: "";
@@ -47,5 +48,12 @@ button:after{
   );
   background-size: 200% 100%;
   background-position: 165% 0;
-
+  transition: 0.7s;
+}
+button:hover:after{
+  background-position:  -20% 0;
+}
+button:hover{
+  box-shadow: 15px 30px 32px rgba(0, 0, 0, 0.25);
+  transform: translateY(-10px);
 }
