@@ -1,0 +1,28 @@
+body{
+  background-color: #fd005b;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+h3{
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  font-size: 100px;
+  letter-spacing: 0.12em;
+  color: #343434;
+}
+h3:before{
+  position: absolute;
+  content: attr(data-text);
+  top: 2em;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent 0,
+    transparent 0.03em,
+    #f6f7f6 0.03em,
+    #f6f7f6 0.03em
+  );
+  color: transparent;
+}
