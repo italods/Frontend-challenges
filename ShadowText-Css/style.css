@@ -12,11 +12,13 @@ h3{
   font-size: 100px;
   letter-spacing: 0.12em;
   color: #343434;
+  -webkit-text-stroke: 2.5px #fd005b;
 }
 h3:before{
   position: absolute;
   content: attr(data-text);
-  top: 2em;
+  top: 0.06em;
+  left: 0.12em;
   background-image: repeating-linear-gradient(
     45deg,
     transparent 0,
@@ -25,4 +27,8 @@ h3:before{
     #f6f7f6 0.03em
   );
   color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  z-index: -1;
+  -webkit-text-stroke-width: 0;
 }
