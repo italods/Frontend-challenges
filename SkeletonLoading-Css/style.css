@@ -17,4 +17,42 @@ body{
   top: 50%;
   left: 50%;
   border-radius: 8px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  padding: 20px 30px;
+}
+.thumbnail{
+  position: relative;
+  float: left;
+  height: 100%;
+  width: 36%;
+  border-radius: 50%
+}
+h1{
+  width: 40%;
+  height: 30px;
+  float: right;
+  margin: 5px 65px 0 0;
+}
+p{
+  width: 55%;
+  height:95px;
+  float: right;
+  margin-top: 20px;
+}
+.card *{
+  background: linear-gradient(
+    120deg, 
+    #e5e5e5 30%,
+    #f0f0f0 38%,
+    #f0f0f0 40%,
+    #e5e5e5 48%
+  );
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  animation: load 2s infinite;
+}
+@keyframes load{
+  100%{
+    background-position: -100% 0;
+  }
 }
