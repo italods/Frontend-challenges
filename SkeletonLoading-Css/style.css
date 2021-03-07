@@ -8,3 +8,13 @@
 body{
   background-color: #5050fe;
 }
+.card{
+  height: 200px;
+  width: 500px;
+  background-color: #ffffff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 8px;
+}
