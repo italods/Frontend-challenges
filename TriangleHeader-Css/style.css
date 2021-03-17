@@ -15,13 +15,14 @@ header{
     to right,
     rgba(255,0,204,0.6),
     rgba(51, 51,154,0.6)
-  )
-  url(background.jpg);
+  ),
+  url("background.jpg");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
   clip-path: polygon(
     0 0,
+    100% 0,
     100% 80%,
     50% 100%,
     0 80%
