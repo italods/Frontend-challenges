@@ -1,0 +1,17 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  background: linear-gradient(
+      45deg,
+      rgba(34, 255, 237, 0.8),
+      rgba(151,51,238,0.9)
+    ), 
+    url(background.jpg) center center fixed;
+  background-size: cover;
+}
