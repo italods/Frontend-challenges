@@ -15,10 +15,17 @@
   bottom: 0;
   top: 0;
   overflow: hidden;
+  border-radius: 10px;
 }
 .container div{
   position: absolute;
   border-radius: 50%;
+  animation: gradient 4s infinite;
+}
+@keyframes gradient{
+  70%{
+    transform: scale(1.2) translate(50px);
+  }
 }
 .container div:nth-child(1){
   height: 90%;
@@ -45,6 +52,13 @@
   height: 50%;
   width: 75%;
   background-color: #1ba8e9;
-  bottom: 10%;
-  left: 18%;
+  bottom: -10%;
+  left: -18%;
+}
+.container:after{
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(80px);
 }
