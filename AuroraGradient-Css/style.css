@@ -37,4 +37,13 @@
   height: 65%;
   width: 80%;
   background-color: #1619b9;
+  bottom: -15%;
+  right: -20%;
+}
+.container div:nth-child(4){
+  height: 50%;
+  width: 75%;
+  background-color: #1ba8e9;
+  bottom: 10%;
+  left: 18%;
 }
