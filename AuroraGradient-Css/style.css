@@ -33,6 +33,7 @@
   background-color: #ff057c;
   left: -20%;
   top: -10%;
+
 }
 .container div:nth-child(2){
   height: 80%;
@@ -40,6 +41,7 @@
   background-color: #800f86;
   top: -12%;
   right: -12%;
+  animation-delay: 2s;
 }
 .container div:nth-child(3){
   height: 65%;
@@ -47,6 +49,7 @@
   background-color: #1619b9;
   bottom: -15%;
   right: -20%;
+  animation-delay: 0.3s;
 }
 .container div:nth-child(4){
   height: 50%;
@@ -54,6 +57,7 @@
   background-color: #1ba8e9;
   bottom: -10%;
   left: -18%;
+  animation-delay: 1.2s;
 }
 .container:after{
   position: absolute;
