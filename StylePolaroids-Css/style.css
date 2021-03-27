@@ -23,4 +23,25 @@ figure img{
 }
 figcaption{
   font-family: 'Caveat', cursive;
+  font-size: 25px;
+  text-align: center;
+  color: #2c2c2c;
+  margin-top: 22px;
+}
+figure:before, 
+figure:after{
+  content: "";
+  position: absolute;
+  height: 50px;
+  width: 180px;
+  background-color: rgba(102, 102, 102, 0.6);
+  transform: rotate(-40deg);
+}
+figure:before{
+  top: 3px;
+  left:-55px;
+}
+figure:after{
+  bottom: 3px;
+  right: -60px;
 }
