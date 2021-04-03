@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 a{
-  display: block;
+  display: grid;
   height: 80px;
   width: 250px;
   background: linear-gradient(
@@ -20,7 +20,7 @@ a{
   top: 0;
   bottom: 0;
   place-items: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins",sans-serif;
   color: #ffffff;
   font-size: 20px;
   font-weight: 500;
