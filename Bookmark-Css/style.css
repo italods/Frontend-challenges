@@ -24,12 +24,38 @@ body{
   bottom: 0;
   border-radius: 12px;
   display: grid;
+  place-items: center;
 }
 input{
   -webkit-appearance: none;
   appearance: none;
-  height: 120px;
+  height: 110px;
   border-right: 40px solid #454b51;
   border-bottom: 40px solid transparent;
-  position: relative;+
+  position: relative;
+  left: 20px;
+  outline: none;
+  cursor: pointer;
+}
+input:before{
+  content: "";
+  position: absolute;
+  left: -39.5px;
+  height: 110px;
+  border-left: 40px solid #454b51;
+  border-bottom: 40px solid transparent;
+}
+input:checked{
+  border-right-color: #2b8ced;
+  animation: scale 0.2s;
+  transition: 0.1s 0.3s border;
+}
+@keyframes scale{
+  90%{
+    transform: scale(0.9);
+  }
+}
+input:checked:before{
+  border-left-color: #2b8ced;
+  transition: 0.1s 0.3s border;
 }
