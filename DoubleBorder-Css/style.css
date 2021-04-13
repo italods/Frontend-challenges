@@ -12,7 +12,6 @@ body{
 div{
   height: 200px;
   width: 200px;
-  background-color: orange;
   position: absolute;
   margin: auto;
   left: 0;
@@ -21,5 +20,7 @@ div{
   bottom: 0;
   border: 8px solid transparent;
   box-shadow: 0 0 0 8px #202539,
-                    inset 0 0 0 8px #3966dd;
+        inset 0 0 0 8px #3966dd;
+  place-items: center;
+  display: grid;
 }
