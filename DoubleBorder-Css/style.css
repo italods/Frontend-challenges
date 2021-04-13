@@ -1,0 +1,25 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background-color: #eef1f8;
+}
+div{
+  height: 200px;
+  width: 200px;
+  background-color: orange;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border: 8px solid transparent;
+  box-shadow: 0 0 0 8px #202539,
+                    inset 0 0 0 8px #3966dd;
+}
