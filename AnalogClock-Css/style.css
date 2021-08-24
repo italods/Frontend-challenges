@@ -44,5 +44,13 @@ img{
   top: 100px;
 }
 .minute{
-  
+  height: 80px;
+  width: 5px;
+  top: 80px;
+}
+.seconds{
+  height: 90px;
+  width: 3px;
+  top: 70px;
+  background-color: #2987e4;
 }
