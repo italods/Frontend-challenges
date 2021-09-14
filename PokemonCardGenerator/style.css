@@ -49,10 +49,30 @@ body {
 .types{
   display: flex;
   justify-content: space-around;
-  margin: 20x 0 40px 0;
+  margin: 20px 0 40px 0;
 }
 .hp span,
-.types span {
+.types span{
   font-size: 12px;
   letter-spacing: 0.4px;
+  font-weight: 600;
+}
+.types span{
+
+}
+.stats{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.stats p{
+  color: #404060;
+}
+#btn{
+  display: block;
+  padding: 15px 60px;
+  font-size: 18px;
+  background-color: #101010;
+  color: #ffffff;
 }
