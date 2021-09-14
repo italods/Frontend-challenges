@@ -4,11 +4,9 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
 body {
   background-color: #cbcfdd;
 }
-
 .container {
   width: 350px;
   position: absolute;
@@ -47,4 +45,14 @@ body {
 .poke-name{
   text-align: center;
   font-weight: 600;
+}
+.types{
+  display: flex;
+  justify-content: space-around;
+  margin: 20x 0 40px 0;
+}
+.hp span,
+.types span {
+  font-size: 12px;
+  letter-spacing: 0.4px;
 }
