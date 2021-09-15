@@ -21,8 +21,30 @@ const url = "https://pokeapi.co/api/v2/pokemon/";
 const card = document.getElementById("card");
 const btn = document.getElementById("btn");
 
-btn.addEventListener("click", getPokeData);
-
 let getPokeData = () => {
-  // Gerando numero aleatorio 
+  // Gerando numero aleatorio
+  let id = Math.floor(Math.random() * 150) + 1;
+  console.log(id);
+  // Combinando URL com ID 
+  const finalUrl = url + id;
+  console.log(finalUrl);
+  
+  fetch(finalUrl)
+  .then((response) => response.json())
+  .  then((data) => {
+    generateCard(data)
+  });
 }
+
+// Gerando Card
+let generateCard = (data) => {
+
+  console.log(data);
+  const hp = data.stats[0].base_stat;
+  const imgSrc = data.sprites.other.dream_world.front_default;
+  const pokeName = data.name;
+  const statAttack = data.stats[1].base_stats;
+}
+
+btn.addEventListener("click", getPokeData);
+window.addEventListener("load", getPokeData);
