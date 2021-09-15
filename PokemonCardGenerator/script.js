@@ -41,7 +41,7 @@ let generateCard = (data) => {
   console.log(data);
   const hp = data.stats[0].base_stat;
   const imgSrc = data.sprites.other.dream_world.front_default;
-  const pokeName = data.name;
+  const pokeName = data.name[0].toUpperCase() + data.name.slice(1);
   const statAttack = data.stats[1].base_stat;
   const statDefense = data.stats[2].base_stat;
   const statSpeed = data.stats[5].base_stat;
@@ -87,11 +87,16 @@ let appendTypes = (types) => {
   })
 };
 let styleCard = (color) => {
-  card.style.background = `background: radial-gradient(
+  card.style.background = 
+  `radial-gradient(
     circle at 50% 0%, 
     ${color} 36%, 
     #ffffff 36%
-  )`
+  )`;
+  card.querySelectorAll(".types span").forEach(
+    typeColor => {
+      typeColor.style.backgroundColor = color;
+    });
 }
 
 btn.addEventListener("click", getPokeData);
