@@ -12,9 +12,26 @@ body{
   align-items: center;
   justify-content: center;
 }
-
 a{
   font-size: 20;
   position: relative;
   text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  cursor: pointer;
+}
+*:before{
+  content: " ";
+  position: absolute;
+  height: 0.1em;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    #fd004c,
+    #fe9000,
+    #fff020,
+    #3edf4b,
+    #3363ff,
+    #b102b7
+  );
 }
