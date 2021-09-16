@@ -5,3 +5,16 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: #151320;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a{
+  font-size: 20;
+  position: relative;
+  text-decoration: none;
+}
