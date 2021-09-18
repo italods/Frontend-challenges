@@ -13,10 +13,17 @@ svg{
   left: 50%;
 }
 svg path{
-  fill: #ffffff;
+  fill: none;
   stroke: #44ca67;
   stroke-width: 6px;
   stroke-dasharray: 600px;
   stroke-dashoffset: 600px;
-  animation: draw-stroke 6s linear forwards;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  animation: draw-stroke 5s linear forwards;
+}
+@keyframes draw-stroke {
+  100%{
+    stroke-dashoffset: 0;
+  }
 }
