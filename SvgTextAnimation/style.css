@@ -3,3 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: #00001d;
+}
+svg{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+svg path{
+  fill: #ffffff;
+  stroke: #44ca67;
+  stroke-width: 6px;
+  stroke-dasharray: 600px;
+  stroke-dashoffset: 600px;
+  animation: draw-stroke 6s linear forwards;
+}
