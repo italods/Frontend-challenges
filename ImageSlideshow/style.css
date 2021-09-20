@@ -48,3 +48,6 @@ body {
     transform: translateX(-300%);
   }
 }
+img{
+  width: 100%;
+}
