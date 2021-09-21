@@ -34,7 +34,6 @@ body{
   display: block;
   width: calc( 100% - 20px);
   height: calc( 100% - 20px);
-  background-color: palegreen;
   border-radius: 50%;
 }
 .show-color{
@@ -57,6 +56,12 @@ input[type="text"]{
   margin: 1em;
   color: #f5f5f5;
   text-align: center;
+}
+input[type="text"]::-mox-selection{
+  background: transparent;
+}
+input[type="text"]::selection{
+  background: transparent;
 }
 .btns{
   display: flex;
