@@ -6,10 +6,13 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="resolution">
-    
+  <div id="resolution">
+
   </div>
-  <script src="script.js"></script>
+  <script>
+    let resolution = document.getElementById("resolution");
+    resolution.textContent = `${window.screen.width} x ${window.screen.height}`;
+  </script>
 </body>
 </html>
 <!--

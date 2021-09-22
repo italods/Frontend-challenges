@@ -3,3 +3,18 @@ body{
   margin: 0;
   background-color: #f5f6ff;
 }
+#resolution{
+  width: 480px;
+  background-color: #3c6fff;
+  padding: 25px 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  color: #f5f6ff;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 20px 30px rgba(0, 0, 151, 0.15);
+}
