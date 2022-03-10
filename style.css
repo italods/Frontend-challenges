@@ -40,8 +40,9 @@ ul {
 }
 
 ul li {
-	background-color: #fff;
-	box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
+	background-color: rgb(255, 255, 255);
+
+  box-shadow: 0px 4px 40px 0px rgba(255, 255, 255, 0.05);
 	margin: 20px;
 	width: 350px;
 }
@@ -54,7 +55,6 @@ ul li a {
 ul li img {
 	display: block;
 	object-fit: cover;
-	margin-bottom: 15px;
 	transition: transform 0.3s ease;
 	height: 200px;
 	width: 350px;
@@ -62,7 +62,8 @@ ul li img {
 
 ul li p {
 	font-weight: bold;
-	padding: 0 15px;
+	padding: 15px;
+  /*border-top: 3px solid #17fa8e;*/
 }
 footer {
   margin: 40px;
