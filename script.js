@@ -66,6 +66,9 @@ const projects = [
     {
       "name": "DoubleBorder-Css",
       "text": "Double Border CSS"
+    },{
+      "name": "FingerprintScannerCss",
+      "text": "Fingerprint Scanner CSS"
     },
     {
       "name": "Heart-Css",
