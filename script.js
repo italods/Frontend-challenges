@@ -87,6 +87,10 @@ const projects = [
       "text": "Loading CSS"
     },
     {
+      "name": "LoadingButton-Css",
+      "text": "Loading Button CSS"
+    },
+    {
       "name": "LoginGlassmorphism-Css",
       "text": "Login Glassmorphism CSS"
     },
