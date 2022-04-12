@@ -1,0 +1,10 @@
+:root{
+  --frist-color: hsl(231, 44%, 56%);
+  --frist-color-alt: hsl(231, 44%, 51%);
+  --text-color: hsl(231, 12%, 98%);
+  --body-color: hsl(231, 100%, 94%);
+}
+
+*{
+  box-sizing: border-box;
+}
