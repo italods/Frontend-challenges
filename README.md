@@ -6,4 +6,4 @@
 
 ## 💻  Projeto 
 
- **Live Demo:** Você pode acompanhar todos os resultados do projeto através [desse link](https://italods-frontend-challenges.netlify.app)
+ **Live Demo:** Você pode acompanhar todos os resultados do projeto através [desse link](https://italods-frontendchallenges.netlify.app)
